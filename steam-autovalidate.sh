@@ -6,7 +6,7 @@ EXTERNAL_LIB_PATH="/run/media/games-usb/SteamLibrary/steamapps/"
 
 # Check if libraryfolders.vdf exists
 if [[ ! -f "$LIBRARY_FILE" ]]; then
-    echo "Error: Steam libraryfolders.vdf not found at $LIBRARY_FILE"
+    echo "Error: Steam libraryfolder.vdf not found at $LIBRARY_FILE"
     exit 1
 fi
 
