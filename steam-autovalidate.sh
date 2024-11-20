@@ -2,7 +2,7 @@
 
 # Path to Steam libraryfolders.vdf (with external drive)
 LIBRARY_FILE="$HOME/.local/share/Steam/steamapps/libraryfolders.vdf"
-EXTERNAL_LIB_PATH="/run/media/games-usb/steamapps"
+EXTERNAL_LIB_PATH="/run/media/games-usb/SteamLibrary/steamapps/"
 
 # Check if libraryfolders.vdf exists
 if [[ ! -f "$LIBRARY_FILE" ]]; then
